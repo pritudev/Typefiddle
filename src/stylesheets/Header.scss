@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+header,
+footer {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 0;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: pt;
+  font-weight: 700;
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+.brand {
+  font-size: 3rem;
+  align-self: left !important;
+}
