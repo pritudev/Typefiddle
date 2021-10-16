@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: 10ms all ease;
   height: 100%;
   width: 70%;
 }
@@ -11,15 +12,14 @@
   color: var(--hl-color);
 }
 .box {
-  font-size: 22pt;
+  font-size: 22.2pt;
   overflow: hidden;
-  height: 13rem;
+  height: 11rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   user-select: none;
   .word {
-    font-weight: 100 !important;
     position: relative;
     margin: 0 5px 2px;
     &.wrong {
@@ -47,7 +47,8 @@
 
   #caret {
     transition: left 0.1s ease;
-    margin-left: -7.29165px;
+    margin-left: -0.9px;
+    top: 5px;
     position: absolute;
     color: var(--hl-color);
     &.blink {

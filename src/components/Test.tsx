@@ -32,7 +32,7 @@ export default class Test extends Component<Props> {
 											left: typedWord.length * 14.5833,
 										}}
 									>
-										|
+										 _
 									</span>
 								) : null}
 								{word.split("").map((char, charId) => {
